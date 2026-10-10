@@ -1,0 +1,53 @@
+{
+  "last_updated": "2026-10-09T19:44:11.937800",
+  "last_checked": "2026-10-09T19:46:17.453594",
+  "last_checked_dump_date": "20261001",
+  "latest_version_dir": "20261009-194411",
+  "source_dump": "https://dumps.wikimedia.org/zh_min_nanwiki/20261001/zh_min_nanwiki-20261001-all-titles-in-ns0.gz",
+  "source_dumps": [
+    "https://dumps.wikimedia.org/zh_min_nanwiki/20261001/zh_min_nanwiki-20261001-all-titles-in-ns0.gz",
+    "https://dumps.wikimedia.org/zh_min_nanwiki/20261001/zh_min_nanwiki-20261001-page.sql.gz",
+    "https://dumps.wikimedia.org/zh_min_nanwiki/20261001/zh_min_nanwiki-20261001-redirect.sql.gz",
+    "https://dumps.wikimedia.org/zh_min_nanwiki/20261001/zh_min_nanwiki-20261001-langlinks.sql.gz"
+  ],
+  "source_dump_date": "20261001",
+  "source_dump_last_modified": "Thu, 01 Oct 2026 23:08:32 GMT",
+  "license": "CC-BY-SA-4.0",
+  "row_count": 289365,
+  "files": {
+    "WikipediaPehoejiDataQuality.json": "eedfcdaa2193443cc2df30544491207bb9f2a001434d6de86c09fbd349c3de80",
+    "WikipediaPehoejiDataQuality.md": "4a5069298ac967b4cdb214180e96f68c19088e435eb5467539e432695616a535",
+    "bunji/WikipediaPehoeji.csv": "44f0c1f3e6fb8e1c81081491456007829f5e9aef80541684ada6313e272d9861",
+    "bunji/WikipediaPehoeji.json": "6ce43c64b7a22b56408cd8e48335976f99b6c815d0101d40338a3560b28dee0c"
+  },
+  "counts": {
+    "titles_total": 679227,
+    "titles_kept": 293009,
+    "titles_dropped": 386218,
+    "rows_merged": 3644,
+    "rows": 289365,
+    "rows_text_corrected": 210,
+    "rows_corrected: hyphens between run-together syllables": 156,
+    "rows_corrected: o· → o͘": 45,
+    "rows_corrected: full-width punctuation → ASCII": 5,
+    "rows_corrected: space before (": 6,
+    "rows_corrected: ı̍ / ἰ → i̍": 1,
+    "rows_corrected: non-breaking hyphen → -": 1,
+    "rows_multi_tone": 1448,
+    "multi_tone_distinct_words": 397,
+    "rows_caron": 105,
+    "titles_without_links": 2609,
+    "titles_linked_elsewhere_only": 16027,
+    "redirects_broken": 115,
+    "redirects_out_of_articles": 436,
+    "redirects_to_section": 2029,
+    "api_answers_reused": 274284,
+    "titles_all_links_dropped": 53,
+    "related_rows": 268096,
+    "related_rows_via_redirect": 108079,
+    "related_rows_own_redirect_links": 18,
+    "related_rows_EngBun": 249608,
+    "related_rows_HoaBun": 156880,
+    "related_rows_JitBun": 80005
+  }
+}
